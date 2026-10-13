@@ -1,0 +1,12 @@
+{
+  "name": "pragyan-unified-ehr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unified Cross-Hospital EHR Aggregator Platform",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "start": "npm --prefix frontend run dev"
+  }
+}

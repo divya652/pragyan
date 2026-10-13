@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Databases
+*.db
+*.db.bak
+*.sqlite
+*.sqlite3
+
+# Pytest
+.pytest_cache/
+*.pyc
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.env
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.suo
+*.user

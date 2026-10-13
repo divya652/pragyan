@@ -1,0 +1,138 @@
+{
+  "batch_metadata": {
+    "originating_system": "St. Jude Legacy MEDITECH EHR v6.1",
+    "export_timestamp": "2024-03-01T04:00:00Z"
+  },
+  "patients": [
+    {
+      "patient_demographics": {
+        "pat_id": "STJUDE-99412",
+        "pat_national_id": "ABHA-9821-4402-1190",
+        "pat_fname": "Ananya",
+        "pat_lname": "Sharma",
+        "pat_dob": "1988-04-15",
+        "pat_gender": "FEMALE",
+        "pat_blood_type": "O+",
+        "pat_phone": "+91-98765-43210",
+        "pat_email": "ananya.sharma@example.com",
+        "pat_residential_address": "Flat 402, Green Glen Layout, Bellandur, Bengaluru",
+        "pat_kin_name": "Rohan Sharma (Spouse)",
+        "pat_kin_phone": "+91-98765-43299"
+      },
+      "visit_history": [
+        {
+          "visit_ref": "STJUDE-ENC-44091",
+          "visit_setting": "URGENT_CARE",
+          "chief_complaint": "Acute productive cough, nocturnal wheezing, and low-grade pyrexia",
+          "attending_doc": "Dr. Priya Nair (Community Urgent Care)",
+          "clinic_unit": "Urgent Care & Family Practice",
+          "admission_time": "2024-01-18T14:20:00Z",
+          "discharge_time": "2024-01-18T16:10:00Z",
+          "physician_summary": "Patient presented with 4-day history of worsening cough. Lungs clear to percussion, bilateral rhonchi on auscultation. Prescribed bronchodilator and antibiotic coverage."
+        }
+      ],
+      "diagnoses_recorded": [
+        {
+          "code_icd10": "J20.9",
+          "condition_title": "Acute Bronchitis, unspecified",
+          "acuity": "MODERATE",
+          "status": "RESOLVED",
+          "first_noted_date": "2024-01-18",
+          "logged_date": "2024-01-18T15:00:00Z"
+        }
+      ],
+      "allergies_reported": [
+        {
+          "agent_substance": "Penicillin V Potassium",
+          "symptoms": "Mild localized skin rash without respiratory compromise",
+          "danger_level": "MODERATE",
+          "status": "CONFIRMED",
+          "date_identified": "2022-03-10T10:00:00Z"
+        }
+      ],
+      "medications_active": [
+        {
+          "brand_or_generic": "Metformin Hydrochloride",
+          "dosage_strength": "1000 mg Extended Release Tablet",
+          "timing_schedule": "Once Daily in the Evening with Dinner",
+          "regimen_status": "ACTIVE",
+          "prescribed_on": "2024-01-18",
+          "signing_doctor": "Dr. Priya Nair",
+          "patient_instructions": "Take with dinner to prevent GI irritation."
+        },
+        {
+          "brand_or_generic": "Azithromycin",
+          "dosage_strength": "500 mg Tablet",
+          "timing_schedule": "Once Daily for 5 Days",
+          "regimen_status": "COMPLETED",
+          "prescribed_on": "2024-01-18",
+          "signing_doctor": "Dr. Priya Nair",
+          "patient_instructions": "Complete full course of antibiotics."
+        }
+      ],
+      "diagnostic_lab_tests": [
+        {
+          "test_description": "Complete Blood Count (CBC) with Differential",
+          "code_loinc": "58410-2",
+          "reading_value": "11.2",
+          "unit_of_measure": "10*3/uL",
+          "standard_range": "4.5 - 11.0",
+          "abnormality_flag": "HIGH",
+          "specimen_drawn_at": "2024-01-18T14:45:00Z",
+          "pathologist_note": "Mild leukocytosis consistent with acute infectious bronchitis."
+        },
+        {
+          "test_description": "Posterior-Anterior (PA) Chest Radiograph",
+          "code_loinc": "36572-6",
+          "reading_value": "Clear lung parenchymal fields. No consolidation or effusion.",
+          "unit_of_measure": "Qualitative",
+          "standard_range": "Normal",
+          "abnormality_flag": "NORMAL",
+          "specimen_drawn_at": "2024-01-18T15:15:00Z",
+          "pathologist_note": "Negative for acute focal pneumonia."
+        }
+      ]
+    },
+    {
+      "patient_demographics": {
+        "pat_id": "STJUDE-88123",
+        "pat_national_id": null,
+        "pat_fname": "Anita",
+        "pat_lname": "Sharma",
+        "pat_dob": "1988-04-15",
+        "pat_gender": "FEMALE",
+        "pat_blood_type": "B+",
+        "pat_phone": "+91-91111-22222",
+        "pat_email": "anita.sharma99@example.com",
+        "pat_residential_address": "Sector 4, HSR Layout, Bengaluru",
+        "pat_kin_name": "Suresh Sharma",
+        "pat_kin_phone": "+91-91111-33333"
+      },
+      "visit_history": [
+        {
+          "visit_ref": "STJUDE-ENC-99112",
+          "visit_setting": "OUTPATIENT",
+          "chief_complaint": "Seasonal allergic rhinitis checkup",
+          "attending_doc": "Dr. Priya Nair",
+          "clinic_unit": "Allergy & Immunology",
+          "admission_time": "2024-03-02T10:00:00Z",
+          "discharge_time": "2024-03-02T10:30:00Z",
+          "physician_summary": "Intranasal fluticasone prescribed for seasonal symptoms."
+        }
+      ],
+      "diagnoses_recorded": [
+        {
+          "code_icd10": "J30.1",
+          "condition_title": "Allergic Rhinitis due to Pollen",
+          "acuity": "MILD",
+          "status": "ACTIVE",
+          "first_noted_date": "2024-03-02",
+          "logged_date": "2024-03-02T10:15:00Z"
+        }
+      ],
+      "allergies_reported": [],
+      "medications_active": [],
+      "diagnostic_lab_tests": []
+    }
+  ]
+}
